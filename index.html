@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sathwika Reddy - B.Tech ECE Student | Developer | Problem Solver. Portfolio showcasing projects, skills, and education.">
+  <meta name="keywords" content="Sathwika Reddy, developer, portfolio, B.Tech, ECE, web development, programming">
+  <meta property="og:title" content="Sathwika Reddy | Developer Portfolio">
+  <meta property="og:description" content="B.Tech ECE Student | Developer | Problem Solver">
+  <meta property="og:type" content="website">
+  <title>Sathwika Reddy | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">SR</span>
+        <span class="logo-bracket">&gt;</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+        <li><a href="#achievements" class="nav-link" data-section="achievements">Achievements</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://github.com/ADD_MY_GITHUB_USERNAME" target="_blank" class="nav-social" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/ADD_MY_LINKEDIN_USERNAME" target="_blank" class="nav-social" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon moon">🌙</span>
+          <span class="theme-icon sun">☀️</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">👋 Hello, I'm</div>
+        <h1 class="hero-title">Sathwika Reddy</h1>
+        <p class="hero-role">B.Tech ECE Student | Developer | Problem Solver</p>
+        <p class="hero-desc">
+          I am a B.Tech Electronics and Communication Engineering student interested in 
+          programming, web development, artificial intelligence, machine learning and building 
+          practical technology projects. I enjoy learning new technologies, solving programming 
+          problems and developing useful applications.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="assets/resume.pdf" class="btn btn-secondary" download>📄 Download Resume</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-num">1st</span>
+            <span class="stat-label">Year B.Tech</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-frame">
+          <img src="assets/profile.jpg" alt="Sathwika Reddy Profile" class="profile-img" onerror="this.src='https://ui-avatars.com/api/?name=Sathwika+Reddy&background=0d9488&color=fff&size=400'">
+          <div class="floating-badge badge-1">💻</div>
+          <div class="floating-badge badge-2">⚡</div>
+          <div class="floating-badge badge-3">🚀</div>
+        </div>
+        <div class="tech-orbit">
+          <span class="orbit-tech">HTML</span>
+          <span class="orbit-tech">CSS</span>
+          <span class="orbit-tech">JS</span>
+          <span class="orbit-tech">React</span>
+          <span class="orbit-tech">Python</span>
+          <span class="orbit-tech">Java</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-cards reveal">
+          <div class="info-card">
+            <div class="info-icon">🎓</div>
+            <h3>Education</h3>
+            <p>B.Tech 1st Year</p>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">🔧</div>
+            <h3>Branch</h3>
+            <p>ECE</p>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">🏫</div>
+            <h3>College</h3>
+            <p>KL University</p>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <h3>Location</h3>
+            <p>Hyderabad, India</p>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            I am currently pursuing my <strong>Bachelor of Technology</strong> in 
+            <strong>Electronics and Communication Engineering</strong> at 
+            <strong>KL Deemed to be University</strong>. My academic journey has fueled my 
+            passion for technology and innovation.
+          </p>
+          <p>
+            I am deeply interested in <strong>software development</strong>, 
+            <strong>web technologies</strong>, <strong>artificial intelligence</strong>, and 
+            <strong>machine learning</strong>. I enjoy tackling complex challenges and 
+            transforming ideas into functional applications.
+          </p>
+          <p>
+            Through various projects, I have gained hands-on experience in web development, 
+            algorithms, and modern frameworks. I am always eager to learn new technologies and 
+            contribute to meaningful projects.
+          </p>
+          <p>
+            My career aspiration is to become a skilled software engineer who builds impactful 
+            products that solve real-world problems and improve people's lives.
+          </p>
+          <a href="assets/resume.pdf" class="btn btn-primary" download>📄 Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">My Skills</span>
+        <h2 class="section-title">Technical Expertise</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h3><span class="skill-cat-icon">💻</span> Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><span class="skill-cat-icon">🌐</span> Web Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><span class="skill-cat-icon">🛠️</span> Tools & Technologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><span class="skill-cat-icon">📚</span> Other Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">OOP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="ai">AI/ML</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- GitHub Section -->
+  <section class="section github-section" id="github">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Open Source</span>
+        <h2 class="section-title">GitHub Activity</h2>
+      </div>
+      <div class="github-stats" id="githubStats">
+        <div class="github-stat-card reveal">
+          <h4 id="ghRepos">--</h4>
+          <p>Repositories</p>
+        </div>
+        <div class="github-stat-card reveal">
+          <h4 id="ghFollowers">--</h4>
+          <p>Followers</p>
+        </div>
+        <div class="github-stat-card reveal">
+          <h4 id="ghFollowing">--</h4>
+          <p>Following</p>
+        </div>
+      </div>
+      <div class="github-repos" id="githubRepos"></div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2025 – Present</span>
+            <h3>B.Tech</h3>
+            <p class="timeline-sub">Electronics and Communication Engineering</p>
+            <p class="timeline-place">KL Deemed to be University</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">[Year]</span>
+            <h3>Intermediate / Class 12</h3>
+            <p class="timeline-place">[Your College/School Name]</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">[Year]</span>
+            <h3>Class 10</h3>
+            <p class="timeline-place">[Your School Name]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+      <p class="section-subtitle reveal">I will add my certifications here soon. Stay tuned!</p>
+      <div class="certs-grid" id="certsGrid">
+        <!-- EDITABLE: Add your certifications here -->
+        <!-- Template:
+        <div class="cert-card reveal">
+          <h3>Certification Name</h3>
+          <p class="cert-org">Issuing Organization</p>
+          <p class="cert-date">Date</p>
+          <p>Description of what you learned.</p>
+          <a href="#" class="cert-link" target="_blank">View Certificate →</a>
+        </div>
+        -->
+        <div class="cert-card placeholder reveal">
+          <div class="placeholder-icon">📜</div>
+          <h3>Add Your First Certification</h3>
+          <p>Edit the <code>certifications</code> array in <code>script.js</code> to add your certifications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section achievements" id="achievements">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Highlights</span>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+      <p class="section-subtitle reveal">I will add my achievements here soon. Stay tuned!</p>
+      <div class="achieve-grid" id="achieveGrid">
+        <!-- EDITABLE: Add your achievements here -->
+        <!-- Template:
+        <div class="achieve-card reveal">
+          <span class="achieve-num">X</span>
+          <span class="achieve-label">Achievement Name</span>
+        </div>
+        -->
+        <div class="achieve-card placeholder reveal">
+          <span class="achieve-num">🏆</span>
+          <span class="achieve-label">Add Your Achievements</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Contact Information</h3>
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <label>Email</label>
+              <a href="mailto:ADD_MY_EMAIL">ADD_MY_EMAIL</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <label>Location</label>
+              <p>Hyderabad, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💻</span>
+            <div>
+              <label>GitHub</label>
+              <a href="https://github.com/ADD_MY_GITHUB_USERNAME" target="_blank">github.com/ADD_MY_GITHUB_USERNAME</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🔗</span>
+            <div>
+              <label>LinkedIn</label>
+              <a href="https://linkedin.com/in/ADD_MY_LINKEDIN_USERNAME" target="_blank">linkedin.com/in/ADD_MY_LINKEDIN_USERNAME</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal">
+          <form name="contact" method="POST" data-netlify="true" class="contact-form" id="contactForm">
+            <input type="hidden" name="form-name" value="contact">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <span>✓</span>
+            <p>Thank you! Your message has been submitted successfully.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span>&lt;</span>SR<span>&gt;</span>
+          </div>
+          <p class="footer-tagline">"Building ideas into practical digital solutions."</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="https://github.com/ADD_MY_GITHUB_USERNAME" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/ADD_MY_LINKEDIN_USERNAME" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:sathwikareddy2903@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <span>Sathwika Reddy</span>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Project Modal -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">×</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
