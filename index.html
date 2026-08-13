@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Sathwika Reddy - B.Tech ECE Student, Developer and Problem Solver">
-
-    <meta name="author" content="Sathwika Reddy">
-
     <title>Sathwika Reddy | Developer Portfolio</title>
+
+    <meta name="description"
+        content="Sathwika Reddy - B.Tech ECE Student and Developer Portfolio">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <!-- Main CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         LOADING SCREEN
-    ========================== -->
+    <!-- ================= LOADER ================= -->
 
     <div class="loader" id="loader">
         <div class="loader-spinner"></div>
@@ -39,1167 +35,171 @@
     </div>
 
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
+    <!-- ================= HEADER ================= -->
 
     <header class="header" id="header">
 
-        <nav class="navbar container">
+        <div class="container navbar">
 
             <a href="#home" class="logo">
-                <span>&lt;</span> SR <span>/&gt;</span>
+                Sathwika<span>.</span>
             </a>
 
-            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
-                <i class="fas fa-bars"></i>
-            </button>
+            <nav class="nav-menu" id="navMenu">
 
-            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
 
-                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">
+                    About
+                </a>
 
-                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">
+                    Skills
+                </a>
 
-                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">
+                    Projects
+                </a>
 
-                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">
+                    Education
+                </a>
 
-                <a href="#education" class="nav-link">Education</a>
+                <a href="#certifications" class="nav-link">
+                    Certifications
+                </a>
 
-                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
 
-                <a href="#contact" class="nav-link">Contact</a>
-
-                <a href="https://github.com/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-nav"
-                   aria-label="GitHub">
+                <a href="https://github.com/Sathwikareddy-29"
+                    target="_blank"
+                    class="social-nav">
                     <i class="fab fa-github"></i>
                 </a>
 
-                <a href="https://www.linkedin.com/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="social-nav"
-                   aria-label="LinkedIn">
+                <a href="#contact" class="social-nav">
                     <i class="fab fa-linkedin"></i>
                 </a>
 
-                <button id="themeToggle"
-                        class="theme-toggle"
-                        aria-label="Toggle dark and light mode">
-                    <i class="fas fa-sun"></i>
-                </button>
+            </nav>
 
-            </div>
 
-        </nav>
+            <button class="theme-toggle"
+                id="themeToggle"
+                aria-label="Toggle theme">
+
+                <i class="fas fa-sun"
+                    id="themeIcon"></i>
+
+            </button>
+
+
+            <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open menu">
+
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+        </div>
 
     </header>
 
 
-    <main>
+    <!-- ================= HERO ================= -->
 
-        <!-- =========================
-             HERO SECTION
-        ========================== -->
+    <section class="hero section" id="home">
 
-        <section class="hero section" id="home">
+        <div class="hero-background">
 
-            <div class="hero-background">
-                <div class="grid-overlay"></div>
-                <div class="glow glow-one"></div>
-                <div class="glow glow-two"></div>
-            </div>
+            <div class="grid-overlay"></div>
 
-            <div class="container hero-container">
+            <div class="glow glow-one"></div>
 
-                <div class="hero-content reveal">
+            <div class="glow glow-two"></div>
 
-                    <p class="hero-greeting">
-                        Hello, I'm
-                    </p>
+        </div>
 
-                    <h1>
-                        Sathwika <span>Reddy</span>
-                    </h1>
 
-                    <h2>
-                        B.Tech ECE Student
-                        <span class="typing-text">| Developer | Problem Solver</span>
-                    </h2>
+        <div class="container hero-container">
 
-                    <p class="hero-description">
-                        I am an Electronics and Communication Engineering student
-                        passionate about programming, web development, AI/ML and
-                        building practical technology solutions.
-                    </p>
+            <div class="hero-content reveal">
 
-                    <div class="hero-buttons">
+                <p class="hero-greeting">
+                    Hello, I'm
+                </p>
 
-                        <a href="#projects" class="btn btn-primary">
-                            <i class="fas fa-code"></i>
-                            View My Projects
-                        </a>
+                <h1>
+                    Sathwika<br>
+                    <span>Reddy.</span>
+                </h1>
 
-                        <a href="assets/resume.pdf"
-                           class="btn btn-outline"
-                           download>
-                            <i class="fas fa-download"></i>
-                            Download Resume
-                        </a>
+                <h2>
+                    I'm a
+                    <span class="typing-text"
+                        id="typingText">
+                        Frontend Developer
+                    </span>
+                </h2>
 
-                        <a href="#contact" class="btn btn-outline">
-                            <i class="fas fa-envelope"></i>
-                            Contact Me
-                        </a>
+                <p class="hero-description">
+                    B.Tech ECE student passionate about
+                    web development, programming,
+                    artificial intelligence and building
+                    meaningful digital experiences.
+                </p>
 
-                    </div>
 
-                    <div class="hero-socials">
+                <div class="hero-buttons">
 
-                        <a href="https://github.com/"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
+                    <a href="#projects"
+                        class="btn btn-primary">
 
-                        <a href="https://www.linkedin.com/"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           aria-label="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
+                        <i class="fas fa-code"></i>
 
-                        <a href="mailto:YOUR_EMAIL_HERE"
-                           aria-label="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+                        View Projects
 
-                    </div>
+                    </a>
+
+
+                    <a href="#contact"
+                        class="btn btn-outline">
+
+                        <i class="fas fa-envelope"></i>
+
+                        Contact Me
+
+                    </a>
 
                 </div>
 
 
-                <div class="hero-image-container reveal">
+                <div class="hero-socials">
 
-                    <div class="profile-card">
-
-                        <div class="profile-image-wrapper">
-
-                            <!-- Replace this image with your own photo -->
-                            <img src="assets/profile.jpg"
-                                 alt="Sathwika Reddy profile photo"
-                                 class="profile-image"
-                                 onerror="this.src='https://via.placeholder.com/500x500?text=Sathwika+Reddy'">
-
-                        </div>
-
-                        <div class="floating-badge badge-one">
-                            <i class="fas fa-code"></i>
-                            <span>Developer</span>
-                        </div>
-
-                        <div class="floating-badge badge-two">
-                            <i class="fas fa-microchip"></i>
-                            <span>ECE</span>
-                        </div>
-
-                        <div class="floating-badge badge-three">
-                            <i class="fas fa-brain"></i>
-                            <span>AI / ML</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <a href="#about" class="scroll-down">
-                <span>Scroll Down</span>
-                <i class="fas fa-arrow-down"></i>
-            </a>
-
-        </section>
-
-
-        <!-- =========================
-             ABOUT SECTION
-        ========================== -->
-
-        <section class="about section" id="about">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <p class="section-label">
-                        Get To Know Me
-                    </p>
-
-                    <h2>
-                        About <span>Me</span>
-                    </h2>
-
-                    <div class="heading-line"></div>
-
-                </div>
-
-
-                <div class="about-grid">
-
-                    <div class="about-content reveal">
-
-                        <h3>
-                            Turning Ideas Into
-                            <span>Practical Solutions</span>
-                        </h3>
-
-                        <p>
-                            I am a B.Tech Electronics and Communication Engineering
-                            student at KL Deemed to be University. I am interested
-                            in programming, web development, Artificial Intelligence,
-                            Machine Learning and emerging technologies.
-                        </p>
-
-                        <p>
-                            I enjoy learning new technologies, solving programming
-                            problems and developing projects that can solve practical
-                            problems. My goal is to continuously improve my technical
-                            skills while creating useful and meaningful digital
-                            solutions.
-                        </p>
-
-                        <div class="about-actions">
-
-                            <a href="#contact" class="btn btn-primary">
-                                Let's Connect
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
-
-                            <a href="assets/resume.pdf"
-                               class="text-link"
-                               download>
-                                Download Resume
-                                <i class="fas fa-download"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="about-info reveal">
-
-                        <div class="info-card">
-
-                            <div class="info-icon">
-                                <i class="fas fa-graduation-cap"></i>
-                            </div>
-
-                            <div>
-                                <span>Education</span>
-                                <strong>B.Tech ECE</strong>
-                            </div>
-
-                        </div>
-
-
-                        <div class="info-card">
-
-                            <div class="info-icon">
-                                <i class="fas fa-university"></i>
-                            </div>
-
-                            <div>
-                                <span>University</span>
-                                <strong>KL Deemed to be University</strong>
-                            </div>
-
-                        </div>
-
-
-                        <div class="info-card">
-
-                            <div class="info-icon">
-                                <i class="fas fa-location-dot"></i>
-                            </div>
-
-                            <div>
-                                <span>Location</span>
-                                <strong>Hyderabad, India</strong>
-                            </div>
-
-                        </div>
-
-
-                        <div class="info-card">
-
-                            <div class="info-icon">
-                                <i class="fas fa-laptop-code"></i>
-                            </div>
-
-                            <div>
-                                <span>Interests</span>
-                                <strong>Development & AI</strong>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             SKILLS SECTION
-        ========================== -->
-
-        <section class="skills section" id="skills">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <p class="section-label">
-                        What I Work With
-                    </p>
-
-                    <h2>
-                        Technical <span>Skills</span>
-                    </h2>
-
-                    <div class="heading-line"></div>
-
-                </div>
-
-
-                <div class="skills-grid">
-
-
-                    <!-- Programming -->
-
-                    <div class="skill-category reveal">
-
-                        <div class="skill-category-header">
-
-                            <div class="category-icon">
-                                <i class="fas fa-terminal"></i>
-                            </div>
-
-                            <div>
-                                <h3>Programming</h3>
-                                <p>Languages I work with</p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="skill-list">
-
-                            <div class="skill-item">
-                                <i class="fas fa-c"></i>
-                                <span>C</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fas fa-code"></i>
-                                <span>C++</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fab fa-java"></i>
-                                <span>Java</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fab fa-python"></i>
-                                <span>Python</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fab fa-js"></i>
-                                <span>JavaScript</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Web Development -->
-
-                    <div class="skill-category reveal">
-
-                        <div class="skill-category-header">
-
-                            <div class="category-icon">
-                                <i class="fas fa-globe"></i>
-                            </div>
-
-                            <div>
-                                <h3>Web Development</h3>
-                                <p>Frontend technologies</p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="skill-list">
-
-                            <div class="skill-item">
-                                <i class="fab fa-html5"></i>
-                                <span>HTML5</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fab fa-css3-alt"></i>
-                                <span>CSS3</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fab fa-js"></i>
-                                <span>JavaScript</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fab fa-react"></i>
-                                <span>React</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Tools -->
-
-                    <div class="skill-category reveal">
-
-                        <div class="skill-category-header">
-
-                            <div class="category-icon">
-                                <i class="fas fa-toolbox"></i>
-                            </div>
-
-                            <div>
-                                <h3>Tools</h3>
-                                <p>Development tools</p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="skill-list">
-
-                            <div class="skill-item">
-                                <i class="fab fa-git-alt"></i>
-                                <span>Git</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fab fa-github"></i>
-                                <span>GitHub</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fas fa-code"></i>
-                                <span>VS Code</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fas fa-database"></i>
-                                <span>PostgreSQL</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Other -->
-
-                    <div class="skill-category reveal">
-
-                        <div class="skill-category-header">
-
-                            <div class="category-icon">
-                                <i class="fas fa-brain"></i>
-                            </div>
-
-                            <div>
-                                <h3>Other Skills</h3>
-                                <p>Core technical knowledge</p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="skill-list">
-
-                            <div class="skill-item">
-                                <i class="fas fa-sitemap"></i>
-                                <span>Data Structures</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fas fa-robot"></i>
-                                <span>Machine Learning</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fas fa-lightbulb"></i>
-                                <span>Problem Solving</span>
-                            </div>
-
-                            <div class="skill-item">
-                                <i class="fas fa-cubes"></i>
-                                <span>OOP</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             PROJECTS SECTION
-        ========================== -->
-
-        <section class="projects section" id="projects">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <p class="section-label">
-                        What I've Built
-                    </p>
-
-                    <h2>
-                        Featured <span>Projects</span>
-                    </h2>
-
-                    <div class="heading-line"></div>
-
-                    <p class="section-description">
-                        A collection of projects that demonstrate my skills,
-                        creativity and interest in solving real-world problems.
-                    </p>
-
-                </div>
-
-
-                <!-- Project Filters -->
-
-                <div class="project-filters reveal">
-
-                    <button class="filter-btn active" data-filter="all">
-                        All
-                    </button>
-
-                    <button class="filter-btn" data-filter="web">
-                        Web Development
-                    </button>
-
-                    <button class="filter-btn" data-filter="ai">
-                        AI / ML
-                    </button>
-
-                    <button class="filter-btn" data-filter="java">
-                        Java
-                    </button>
-
-                    <button class="filter-btn" data-filter="python">
-                        Python
-                    </button>
-
-                    <button class="filter-btn" data-filter="iot">
-                        IoT
-                    </button>
-
-                </div>
-
-
-                <!-- Project Cards -->
-
-                <div class="projects-grid" id="projectsGrid">
-
-
-                    <!-- Project 1 -->
-
-                    <article class="project-card reveal"
-                             data-category="ai web"
-                             data-project="route-finder">
-
-                        <div class="project-image">
-
-                            <div class="project-placeholder">
-                                <i class="fas fa-route"></i>
-                            </div>
-
-                            <div class="project-overlay">
-
-                                <button class="project-details-btn"
-                                        data-project="route-finder">
-                                    <i class="fas fa-eye"></i>
-                                    View Details
-                                </button>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <div class="project-top">
-
-                                <span class="project-number">
-                                    01
-                                </span>
-
-                                <div class="project-links">
-
-                                    <a href="#"
-                                       aria-label="Route Finder GitHub">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
-                                    <a href="#"
-                                       aria-label="Route Finder Live Demo">
-                                        <i class="fas fa-arrow-up-right-from-square"></i>
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-
-                            <h3>
-                                Smart Route Finder
-                            </h3>
-
-                            <p>
-                                An intelligent route finding web application
-                                that uses AI search algorithms to identify
-                                efficient routes between cities.
-                            </p>
-
-
-                            <div class="project-tech">
-
-                                <span>React</span>
-                                <span>JavaScript</span>
-                                <span>Leaflet</span>
-                                <span>A*</span>
-                                <span>BFS</span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Project 2 -->
-
-                    <article class="project-card reveal"
-                             data-category="web"
-                             data-project="movie-discovery">
-
-                        <div class="project-image">
-
-                            <div class="project-placeholder">
-                                <i class="fas fa-film"></i>
-                            </div>
-
-                            <div class="project-overlay">
-
-                                <button class="project-details-btn"
-                                        data-project="movie-discovery">
-                                    <i class="fas fa-eye"></i>
-                                    View Details
-                                </button>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <div class="project-top">
-
-                                <span class="project-number">
-                                    02
-                                </span>
-
-                                <div class="project-links">
-
-                                    <a href="#"
-                                       aria-label="Movie Discovery GitHub">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
-                                    <a href="#"
-                                       aria-label="Movie Discovery Live Demo">
-                                        <i class="fas fa-arrow-up-right-from-square"></i>
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-
-                            <h3>
-                                Movie Discovery & Watchlist
-                            </h3>
-
-                            <p>
-                                A responsive movie platform where users can
-                                discover movies, filter content, view details
-                                and maintain a personal watchlist.
-                            </p>
-
-
-                            <div class="project-tech">
-
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-                                <span>LocalStorage</span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Project 3 -->
-
-                    <article class="project-card reveal"
-                             data-category="web"
-                             data-project="news-platform">
-
-                        <div class="project-image">
-
-                            <div class="project-placeholder">
-                                <i class="fas fa-newspaper"></i>
-                            </div>
-
-                            <div class="project-overlay">
-
-                                <button class="project-details-btn"
-                                        data-project="news-platform">
-                                    <i class="fas fa-eye"></i>
-                                    View Details
-                                </button>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <div class="project-top">
-
-                                <span class="project-number">
-                                    03
-                                </span>
-
-                                <div class="project-links">
-
-                                    <a href="#"
-                                       aria-label="News Platform GitHub">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
-                                    <a href="#"
-                                       aria-label="News Platform Live Demo">
-                                        <i class="fas fa-arrow-up-right-from-square"></i>
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-
-                            <h3>
-                                News Aggregation Platform
-                            </h3>
-
-                            <p>
-                                A user-friendly platform that organizes
-                                news articles into categories for a simple
-                                and engaging reading experience.
-                            </p>
-
-
-                            <div class="project-tech">
-
-                                <span>React</span>
-                                <span>JavaScript</span>
-                                <span>API</span>
-                                <span>CSS</span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Project 4 -->
-
-                    <article class="project-card reveal"
-                             data-category="python ai"
-                             data-project="ml-project">
-
-                        <div class="project-image">
-
-                            <div class="project-placeholder">
-                                <i class="fas fa-brain"></i>
-                            </div>
-
-                            <div class="project-overlay">
-
-                                <button class="project-details-btn"
-                                        data-project="ml-project">
-                                    <i class="fas fa-eye"></i>
-                                    View Details
-                                </button>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <div class="project-top">
-
-                                <span class="project-number">
-                                    04
-                                </span>
-
-                                <div class="project-links">
-
-                                    <a href="#"
-                                       aria-label="Machine Learning GitHub">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
-                                    <a href="#"
-                                       aria-label="Machine Learning Live Demo">
-                                        <i class="fas fa-arrow-up-right-from-square"></i>
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-
-                            <h3>
-                                Machine Learning Project
-                            </h3>
-
-                            <p>
-                                A machine learning project focused on
-                                analyzing data and building predictive
-                                models using Python.
-                            </p>
-
-
-                            <div class="project-tech">
-
-                                <span>Python</span>
-                                <span>NumPy</span>
-                                <span>Pandas</span>
-                                <span>Scikit-learn</span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Project 5 -->
-
-                    <article class="project-card reveal"
-                             data-category="iot"
-                             data-project="smart-sensor">
-
-                        <div class="project-image">
-
-                            <div class="project-placeholder">
-                                <i class="fas fa-microchip"></i>
-                            </div>
-
-                            <div class="project-overlay">
-
-                                <button class="project-details-btn"
-                                        data-project="smart-sensor">
-                                    <i class="fas fa-eye"></i>
-                                    View Details
-                                </button>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <div class="project-top">
-
-                                <span class="project-number">
-                                    05
-                                </span>
-
-                                <div class="project-links">
-
-                                    <a href="#"
-                                       aria-label="Smart Sensor GitHub">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
-                                    <a href="#"
-                                       aria-label="Smart Sensor Live Demo">
-                                        <i class="fas fa-arrow-up-right-from-square"></i>
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-
-                            <h3>
-                                Smart Sensor System
-                            </h3>
-
-                            <p>
-                                An IoT-based project designed to collect
-                                sensor data and provide useful information
-                                for real-world applications.
-                            </p>
-
-
-                            <div class="project-tech">
-
-                                <span>ESP32</span>
-                                <span>IoT</span>
-                                <span>MQTT</span>
-                                <span>Sensors</span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Project 6 -->
-
-                    <article class="project-card reveal"
-                             data-category="java"
-                             data-project="java-project">
-
-                        <div class="project-image">
-
-                            <div class="project-placeholder">
-                                <i class="fab fa-java"></i>
-                            </div>
-
-                            <div class="project-overlay">
-
-                                <button class="project-details-btn"
-                                        data-project="java-project">
-                                    <i class="fas fa-eye"></i>
-                                    View Details
-                                </button>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-content">
-
-                            <div class="project-top">
-
-                                <span class="project-number">
-                                    06
-                                </span>
-
-                                <div class="project-links">
-
-                                    <a href="#"
-                                       aria-label="Java Project GitHub">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
-                                    <a href="#"
-                                       aria-label="Java Project Live Demo">
-                                        <i class="fas fa-arrow-up-right-from-square"></i>
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-
-                            <h3>
-                                Java Application
-                            </h3>
-
-                            <p>
-                                A Java-based application demonstrating
-                                object-oriented programming, classes,
-                                interfaces and practical programming concepts.
-                            </p>
-
-
-                            <div class="project-tech">
-
-                                <span>Java</span>
-                                <span>OOP</span>
-                                <span>Collections</span>
-                                <span>DSA</span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             GITHUB SECTION
-        ========================== -->
-
-        <section class="github-section section" id="github">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <p class="section-label">
-                        Open Source
-                    </p>
-
-                    <h2>
-                        GitHub <span>Activity</span>
-                    </h2>
-
-                    <div class="heading-line"></div>
-
-                    <p class="section-description">
-                        Explore my public repositories and coding activity.
-                    </p>
-
-                </div>
-
-
-                <div class="github-stats reveal">
-
-                    <div class="github-stat">
+                    <a href="https://github.com/Sathwikareddy-29"
+                        target="_blank">
 
                         <i class="fab fa-github"></i>
 
-                        <div>
-                            <strong id="githubRepos">
-                                --
-                            </strong>
-
-                            <span>Repositories</span>
-                        </div>
-
-                    </div>
+                    </a>
 
 
-                    <div class="github-stat">
+                    <a href="https://www.linkedin.com/"
+                        target="_blank">
 
-                        <i class="fas fa-users"></i>
+                        <i class="fab fa-linkedin-in"></i>
 
-                        <div>
-                            <strong id="githubFollowers">
-                                --
-                            </strong>
-
-                            <span>Followers</span>
-                        </div>
-
-                    </div>
+                    </a>
 
 
-                    <div class="github-stat">
+                    <a href="mailto:your-email@example.com">
 
-                        <i class="fas fa-user-plus"></i>
-
-                        <div>
-                            <strong id="githubFollowing">
-                                --
-                            </strong>
-
-                            <span>Following</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="github-repositories"
-                     id="githubRepositories">
-
-                    <div class="github-loading">
-
-                        <i class="fas fa-spinner fa-spin"></i>
-
-                        <p>
-                            Loading GitHub repositories...
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="github-button-container reveal">
-
-                    <a href="https://github.com/"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       class="btn btn-primary">
-
-                        <i class="fab fa-github"></i>
-
-                        View GitHub Profile
+                        <i class="fas fa-envelope"></i>
 
                     </a>
 
@@ -1207,592 +207,1336 @@
 
             </div>
 
-        </section>
 
+            <!-- PROFILE -->
 
-        <!-- =========================
-             EDUCATION SECTION
-        ========================== -->
+            <div class="hero-image-container reveal">
 
-        <section class="education section" id="education">
+                <div class="profile-card">
 
-            <div class="container">
+                    <div class="profile-image-wrapper">
 
-                <div class="section-heading reveal">
-
-                    <p class="section-label">
-                        My Academic Journey
-                    </p>
-
-                    <h2>
-                        <span>Education</span>
-                    </h2>
-
-                    <div class="heading-line"></div>
-
-                </div>
-
-
-                <div class="timeline">
-
-
-                    <div class="timeline-item reveal">
-
-                        <div class="timeline-dot">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-
-                        <div class="timeline-content">
-
-                            <span class="timeline-date">
-                                2025 - Present
-                            </span>
-
-                            <h3>
-                                Bachelor of Technology
-                            </h3>
-
-                            <h4>
-                                Electronics & Communication Engineering
-                            </h4>
-
-                            <p>
-                                KL Deemed to be University
-                            </p>
-
-                            <p>
-                                Currently pursuing B.Tech with a focus on
-                                engineering fundamentals, programming,
-                                electronics and emerging technologies.
-                            </p>
-
-                        </div>
+                        <img
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80"
+                            alt="Profile"
+                            class="profile-image">
 
                     </div>
 
 
-                    <div class="timeline-item reveal">
+                    <div class="floating-badge badge-one">
 
-                        <div class="timeline-dot">
-                            <i class="fas fa-school"></i>
-                        </div>
+                        <i class="fas fa-code"></i>
 
-                        <div class="timeline-content">
-
-                            <span class="timeline-date">
-                                Previous Education
-                            </span>
-
-                            <h3>
-                                Intermediate / Class 12
-                            </h3>
-
-                            <h4>
-                                Higher Secondary Education
-                            </h4>
-
-                            <p>
-                                Add your college name here
-                            </p>
-
-                            <p>
-                                Add your academic details here.
-                            </p>
-
-                        </div>
+                        <span>Developer</span>
 
                     </div>
 
 
-                    <div class="timeline-item reveal">
+                    <div class="floating-badge badge-two">
 
-                        <div class="timeline-dot">
-                            <i class="fas fa-book"></i>
-                        </div>
+                        <i class="fas fa-graduation-cap"></i>
 
-                        <div class="timeline-content">
+                        <span>ECE Student</span>
 
-                            <span class="timeline-date">
-                                Previous Education
-                            </span>
+                    </div>
 
-                            <h3>
-                                Class 10
-                            </h3>
 
-                            <h4>
-                                Secondary Education
-                            </h4>
+                    <div class="floating-badge badge-three">
 
-                            <p>
-                                Add your school name here
-                            </p>
+                        <i class="fas fa-laptop-code"></i>
 
-                            <p>
-                                Add your academic details here.
-                            </p>
-
-                        </div>
+                        <span>Creative</span>
 
                     </div>
 
                 </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CERTIFICATIONS SECTION
-        ========================== -->
-
-        <section class="certifications section" id="certifications">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <p class="section-label">
-                        Learning & Growth
-                    </p>
-
-                    <h2>
-                        Certifications & <span>Achievements</span>
-                    </h2>
-
-                    <div class="heading-line"></div>
-
-                    <p class="section-description">
-                        Certifications, courses and achievements that
-                        represent my continuous learning journey.
-                    </p>
-
-                </div>
-
-
-                <div class="certifications-grid">
-
-
-                    <div class="certificate-card reveal">
-
-                        <div class="certificate-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-
-                        <div class="certificate-content">
-
-                            <span class="certificate-date">
-                                Add Date
-                            </span>
-
-                            <h3>
-                                Add Certification Name
-                            </h3>
-
-                            <p>
-                                Add the issuing organization and a short
-                                description of the certification here.
-                            </p>
-
-                            <a href="#"
-                               class="certificate-link">
-                                View Certificate
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="certificate-card reveal">
-
-                        <div class="certificate-icon">
-                            <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="certificate-content">
-
-                            <span class="certificate-date">
-                                Add Date
-                            </span>
-
-                            <h3>
-                                Add Certification Name
-                            </h3>
-
-                            <p>
-                                Add the issuing organization and a short
-                                description of the certification here.
-                            </p>
-
-                            <a href="#"
-                               class="certificate-link">
-                                View Certificate
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="certificate-card reveal">
-
-                        <div class="certificate-icon">
-                            <i class="fas fa-medal"></i>
-                        </div>
-
-                        <div class="certificate-content">
-
-                            <span class="certificate-date">
-                                Add Date
-                            </span>
-
-                            <h3>
-                                Add Achievement
-                            </h3>
-
-                            <p>
-                                Add your academic, coding, project or
-                                competition achievement here.
-                            </p>
-
-                            <a href="#"
-                               class="certificate-link">
-                                View Details
-                                <i class="fas fa-arrow-right"></i>
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CONTACT SECTION
-        ========================== -->
-
-        <section class="contact section" id="contact">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <p class="section-label">
-                        Let's Connect
-                    </p>
-
-                    <h2>
-                        Get In <span>Touch</span>
-                    </h2>
-
-                    <div class="heading-line"></div>
-
-                    <p class="section-description">
-                        Have a project idea, question or opportunity?
-                        Feel free to reach out.
-                    </p>
-
-                </div>
-
-
-                <div class="contact-grid">
-
-
-                    <!-- Contact Information -->
-
-                    <div class="contact-info reveal">
-
-                        <h3>
-                            Let's build something
-                            <span>great together.</span>
-                        </h3>
-
-                        <p>
-                            I am always interested in learning about new
-                            opportunities, projects and ideas.
-                        </p>
-
-
-                        <div class="contact-details">
-
-                            <a href="mailto:YOUR_EMAIL_HERE"
-                               class="contact-item">
-
-                                <div class="contact-icon">
-                                    <i class="fas fa-envelope"></i>
-                                </div>
-
-                                <div>
-                                    <span>Email</span>
-                                    <strong>YOUR_EMAIL_HERE</strong>
-                                </div>
-
-                            </a>
-
-
-                            <div class="contact-item">
-
-                                <div class="contact-icon">
-                                    <i class="fas fa-location-dot"></i>
-                                </div>
-
-                                <div>
-                                    <span>Location</span>
-                                    <strong>Hyderabad, India</strong>
-                                </div>
-
-                            </div>
-
-
-                            <a href="https://github.com/"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="contact-item">
-
-                                <div class="contact-icon">
-                                    <i class="fab fa-github"></i>
-                                </div>
-
-                                <div>
-                                    <span>GitHub</span>
-                                    <strong>View Profile</strong>
-                                </div>
-
-                            </a>
-
-
-                            <a href="https://www.linkedin.com/"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="contact-item">
-
-                                <div class="contact-icon">
-                                    <i class="fab fa-linkedin"></i>
-                                </div>
-
-                                <div>
-                                    <span>LinkedIn</span>
-                                    <strong>Connect With Me</strong>
-                                </div>
-
-                            </a>
-
-                        </div>
-
-
-                        <div class="contact-socials">
-
-                            <a href="https://github.com/"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               aria-label="GitHub">
-
-                                <i class="fab fa-github"></i>
-
-                            </a>
-
-                            <a href="https://www.linkedin.com/"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               aria-label="LinkedIn">
-
-                                <i class="fab fa-linkedin"></i>
-
-                            </a>
-
-                            <a href="mailto:YOUR_EMAIL_HERE"
-                               aria-label="Email">
-
-                                <i class="fas fa-envelope"></i>
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Contact Form -->
-
-                    <div class="contact-form-wrapper reveal">
-
-                        <form name="contact"
-                              method="POST"
-                              data-netlify="true"
-                              class="contact-form"
-                              id="contactForm">
-
-                            <input type="hidden"
-                                   name="form-name"
-                                   value="contact">
-
-                            <div class="form-row">
-
-                                <div class="form-group">
-
-                                    <label for="name">
-                                        Your Name
-                                    </label>
-
-                                    <input type="text"
-                                           id="name"
-                                           name="name"
-                                           placeholder="Enter your name"
-                                           required>
-
-                                </div>
-
-
-                                <div class="form-group">
-
-                                    <label for="email">
-                                        Email Address
-                                    </label>
-
-                                    <input type="email"
-                                           id="email"
-                                           name="email"
-                                           placeholder="Enter your email"
-                                           required>
-
-                                </div>
-
-                            </div>
-
-
-                            <div class="form-group">
-
-                                <label for="subject">
-                                    Subject
-                                </label>
-
-                                <input type="text"
-                                       id="subject"
-                                       name="subject"
-                                       placeholder="What is this about?"
-                                       required>
-
-                            </div>
-
-
-                            <div class="form-group">
-
-                                <label for="message">
-                                    Message
-                                </label>
-
-                                <textarea id="message"
-                                          name="message"
-                                          rows="6"
-                                          placeholder="Write your message..."
-                                          required></textarea>
-
-                            </div>
-
-
-                            <button type="submit"
-                                    class="btn btn-primary form-submit">
-
-                                <span>
-                                    Send Message
-                                </span>
-
-                                <i class="fas fa-paper-plane"></i>
-
-                            </button>
-
-
-                            <p class="form-note">
-                                <i class="fas fa-shield-halved"></i>
-                                Your information is kept private.
-                            </p>
-
-                        </form>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- =========================
-         PROJECT DETAILS MODAL
-    ========================== -->
-
-    <div class="modal"
-         id="projectModal"
-         aria-hidden="true">
-
-        <div class="modal-overlay"></div>
-
-        <div class="modal-content">
-
-            <button class="modal-close"
-                    id="modalClose"
-                    aria-label="Close project details">
-
-                <i class="fas fa-xmark"></i>
-
-            </button>
-
-            <div id="modalBody">
-
-                <!-- JavaScript will insert project details here -->
 
             </div>
 
         </div>
 
-    </div>
+
+        <a href="#about"
+            class="scroll-down">
+
+            Scroll
+
+            <i class="fas fa-chevron-down"></i>
+
+        </a>
+
+    </section>
 
 
-    <!-- =========================
-         TOAST NOTIFICATION
-    ========================== -->
+    <!-- ================= ABOUT ================= -->
 
-    <div class="toast"
-         id="toast">
+    <section class="about section"
+        id="about">
 
-        <i class="fas fa-circle-check"></i>
+        <div class="container">
 
-        <span id="toastMessage">
-            Success
-        </span>
+            <div class="section-heading reveal">
 
-    </div>
+                <p class="section-label">
+                    Get to know me
+                </p>
 
+                <h2>
+                    About <span>Me</span>
+                </h2>
 
-    <!-- =========================
-         BACK TO TOP
-    ========================== -->
+                <div class="heading-line"></div>
 
-    <button class="back-to-top"
-            id="backToTop"
-            aria-label="Back to top">
-
-        <i class="fas fa-arrow-up"></i>
-
-    </button>
+            </div>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+            <div class="about-grid">
+
+                <div class="about-content reveal">
+
+                    <h3>
+                        Building ideas into
+                        <span>digital experiences.</span>
+                    </h3>
+
+                    <p>
+                        I am a B.Tech Electronics and
+                        Communication Engineering student
+                        interested in software development,
+                        frontend technologies and
+                        problem solving.
+                    </p>
+
+                    <p>
+                        I enjoy creating responsive websites,
+                        experimenting with modern technologies
+                        and developing projects that solve
+                        real-world problems.
+                    </p>
+
+
+                    <div class="about-actions">
+
+                        <a href="#contact"
+                            class="btn btn-primary">
+
+                            Let's Connect
+
+                        </a>
+
+                        <a href="https://github.com/Sathwikareddy-29"
+                            target="_blank"
+                            class="text-link">
+
+                            GitHub
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-info reveal">
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+
+                        <div>
+                            <span>Education</span>
+                            <strong>B.Tech ECE</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+
+                        <div>
+                            <span>Focus</span>
+                            <strong>Web Development</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <strong>Hyderabad, India</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+
+                        <div>
+                            <span>Interest</span>
+                            <strong>Technology</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="skills section"
+        id="skills">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    My expertise
+                </p>
+
+                <h2>
+                    Technical <span>Skills</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-category reveal">
+
+                    <div class="skill-category-header">
+
+                        <div class="category-icon">
+
+                            <i class="fas fa-code"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Programming
+                            </h3>
+
+                            <p>
+                                Core technologies
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-list">
+
+                        <span class="skill-item">
+                            <i class="fab fa-java"></i>
+                            Java
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fab fa-python"></i>
+                            Python
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fas fa-c"></i>
+                            C
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fab fa-js"></i>
+                            JavaScript
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-category reveal">
+
+                    <div class="skill-category-header">
+
+                        <div class="category-icon">
+
+                            <i class="fas fa-globe"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Web Development
+                            </h3>
+
+                            <p>
+                                Frontend technologies
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-list">
+
+                        <span class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            HTML
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            CSS
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fab fa-react"></i>
+                            React
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            Node.js
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-category reveal">
+
+                    <div class="skill-category-header">
+
+                        <div class="category-icon">
+
+                            <i class="fas fa-database"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Database
+                            </h3>
+
+                            <p>
+                                Data technologies
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-list">
+
+                        <span class="skill-item">
+                            <i class="fas fa-database"></i>
+                            PostgreSQL
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fas fa-database"></i>
+                            SQL
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-category reveal">
+
+                    <div class="skill-category-header">
+
+                        <div class="category-icon">
+
+                            <i class="fas fa-toolbox"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Tools
+                            </h3>
+
+                            <p>
+                                Development tools
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-list">
+
+                        <span class="skill-item">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            Git
+                        </span>
+
+                        <span class="skill-item">
+                            <i class="fas fa-code"></i>
+                            VS Code
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="projects section"
+        id="projects">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    What I've built
+                </p>
+
+                <h2>
+                    Featured <span>Projects</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="project-filters">
+
+                <button
+                    class="filter-btn active"
+                    data-filter="all">
+
+                    All
+
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-filter="web">
+
+                    Web
+
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-filter="ai">
+
+                    AI
+
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-filter="other">
+
+                    Other
+
+                </button>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <article
+                    class="project-card reveal"
+                    data-category="ai">
+
+                    <div class="project-image">
+
+                        <div class="project-placeholder">
+
+                            <i class="fas fa-route"></i>
+
+                        </div>
+
+
+                        <div class="project-overlay">
+
+                            <button
+                                class="project-details-btn"
+                                data-project="navmind">
+
+                                View Details
+
+                                <i class="fas fa-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                01
+                            </span>
+
+                            <div class="project-links">
+
+                                <a href="https://github.com/"
+                                    target="_blank">
+
+                                    <i class="fab fa-github"></i>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <h3>
+                            NavMind AI
+                        </h3>
+
+                        <p>
+                            Smart route finder using
+                            AI search algorithms.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>React</span>
+
+                            <span>JavaScript</span>
+
+                            <span>Leaflet</span>
+
+                            <span>AI</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+
+                <article
+                    class="project-card reveal"
+                    data-category="web">
+
+                    <div class="project-image">
+
+                        <div class="project-placeholder">
+
+                            <i class="fas fa-film"></i>
+
+                        </div>
+
+
+                        <div class="project-overlay">
+
+                            <button
+                                class="project-details-btn"
+                                data-project="movie">
+
+                                View Details
+
+                                <i class="fas fa-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+                            <div class="project-links">
+
+                                <a href="https://github.com/"
+                                    target="_blank">
+
+                                    <i class="fab fa-github"></i>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <h3>
+                            Movie Discovery
+                        </h3>
+
+                        <p>
+                            Interactive movie discovery
+                            and watchlist platform.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+
+                            <span>CSS</span>
+
+                            <span>JavaScript</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+
+                <article
+                    class="project-card reveal"
+                    data-category="web">
+
+                    <div class="project-image">
+
+                        <div class="project-placeholder">
+
+                            <i class="fas fa-newspaper"></i>
+
+                        </div>
+
+
+                        <div class="project-overlay">
+
+                            <button
+                                class="project-details-btn"
+                                data-project="news">
+
+                                View Details
+
+                                <i class="fas fa-arrow-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                03
+                            </span>
+
+                            <div class="project-links">
+
+                                <a href="https://github.com/"
+                                    target="_blank">
+
+                                    <i class="fab fa-github"></i>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <h3>
+                            News Platform
+                        </h3>
+
+                        <p>
+                            Modern news aggregation
+                            and reading platform.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>React</span>
+
+                            <span>JavaScript</span>
+
+                            <span>API</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= GITHUB ================= -->
+
+    <section class="github section">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    Open source
+                </p>
+
+                <h2>
+                    My <span>GitHub</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="github-stats">
+
+                <div class="github-stat">
+
+                    <i class="fab fa-github"></i>
+
+                    <div>
+
+                        <strong id="githubRepoCount">
+                            --
+                        </strong>
+
+                        <span>
+                            Public Repositories
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="github-stat">
+
+                    <i class="fas fa-star"></i>
+
+                    <div>
+
+                        <strong id="githubStars">
+                            --
+                        </strong>
+
+                        <span>
+                            Total Stars
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="github-stat">
+
+                    <i class="fas fa-users"></i>
+
+                    <div>
+
+                        <strong id="githubFollowers">
+                            --
+                        </strong>
+
+                        <span>
+                            Followers
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="github-repositories"
+                id="githubRepositories">
+
+                <div class="github-loading">
+
+                    <div>
+
+                        <i class="fab fa-github"></i>
+
+                        <p>
+                            Loading GitHub projects...
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="github-button-container">
+
+                <a
+                    href="https://github.com/Sathwikareddy-29"
+                    target="_blank"
+                    class="btn btn-primary">
+
+                    <i class="fab fa-github"></i>
+
+                    View GitHub Profile
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section class="education section"
+        id="education">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    My journey
+                </p>
+
+                <h2>
+                    <span>Education</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <div class="timeline-item reveal">
+
+                    <div class="timeline-dot">
+
+                        <i class="fas fa-graduation-cap"></i>
+
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            2025 - Present
+                        </span>
+
+                        <h3>
+                            Bachelor of Technology
+                        </h3>
+
+                        <h4>
+                            Electronics & Communication Engineering
+                        </h4>
+
+                        <p>
+                            Currently pursuing B.Tech with
+                            a strong interest in programming,
+                            web development and emerging
+                            technologies.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item reveal">
+
+                    <div class="timeline-dot">
+
+                        <i class="fas fa-school"></i>
+
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            Previous Education
+                        </span>
+
+                        <h3>
+                            Higher Secondary Education
+                        </h3>
+
+                        <h4>
+                            Science & Mathematics
+                        </h4>
+
+                        <p>
+                            Developed a strong foundation
+                            in mathematics, science and
+                            computer fundamentals.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section class="certifications section"
+        id="certifications">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    Achievements
+                </p>
+
+                <h2>
+                    <span>Certifications</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="certifications-grid">
+
+
+                <div class="certificate-card reveal">
+
+                    <div class="certificate-icon">
+
+                        <i class="fas fa-certificate"></i>
+
+                    </div>
+
+                    <div class="certificate-content">
+
+                        <span class="certificate-date">
+                            2026
+                        </span>
+
+                        <h3>
+                            Programming Certification
+                        </h3>
+
+                        <p>
+                            Add your certification
+                            details here.
+                        </p>
+
+                        <a href="#"
+                            class="certificate-link">
+
+                            View Certificate
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="certificate-card reveal">
+
+                    <div class="certificate-icon">
+
+                        <i class="fas fa-award"></i>
+
+                    </div>
+
+                    <div class="certificate-content">
+
+                        <span class="certificate-date">
+                            2026
+                        </span>
+
+                        <h3>
+                            Web Development
+                        </h3>
+
+                        <p>
+                            Add your web development
+                            certification here.
+                        </p>
+
+                        <a href="#"
+                            class="certificate-link">
+
+                            View Certificate
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="certificate-card reveal">
+
+                    <div class="certificate-icon">
+
+                        <i class="fas fa-medal"></i>
+
+                    </div>
+
+                    <div class="certificate-content">
+
+                        <span class="certificate-date">
+                            2026
+                        </span>
+
+                        <h3>
+                            Technical Achievement
+                        </h3>
+
+                        <p>
+                            Add your achievement
+                            details here.
+                        </p>
+
+                        <a href="#"
+                            class="certificate-link">
+
+                            View Certificate
+
+                            <i class="fas fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact section"
+        id="contact">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    Get in touch
+                </p>
+
+                <h2>
+                    Contact <span>Me</span>
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <div class="contact-info reveal">
+
+                    <h3>
+                        Let's build something
+                        <span>great.</span>
+                    </h3>
+
+                    <p>
+                        I'm always interested in learning,
+                        collaborating and working on
+                        interesting technology projects.
+                    </p>
+
+
+                    <div class="contact-details">
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+
+                                <i class="fas fa-envelope"></i>
+
+                            </div>
+
+                            <div>
+
+                                <span>Email</span>
+
+                                <strong>
+                                    your-email@example.com
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+
+                                <i class="fab fa-github"></i>
+
+                            </div>
+
+                            <div>
+
+                                <span>GitHub</span>
+
+                                <strong>
+                                    Sathwikareddy-29
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+
+                                <i class="fas fa-map-marker-alt"></i>
+
+                            </div>
+
+                            <div>
+
+                                <span>Location</span>
+
+                                <strong>
+                                    Hyderabad, India
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-socials">
+
+                        <a
+                            href="https://github.com/Sathwikareddy-29"
+                            target="_blank">
+
+                            <i class="fab fa-github"></i>
+
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank">
+
+                            <i class="fab fa-linkedin-in"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTACT FORM -->
+
+                <div class="contact-form-wrapper reveal">
+
+                    <form
+                        class="contact-form"
+                        id="contactForm">
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="name">
+                                    Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="Your name"
+                                    required>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="email">
+                                    Email
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="Your email"
+                                    required>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="subject">
+                                Subject
+                            </label>
+
+                            <input
+                                type="text"
+                                id="subject"
+                                placeholder="Subject"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                rows="6"
+                                placeholder="Write your message..."
+                                required></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary form-submit">
+
+                            <i class="fas fa-paper-plane"></i>
+
+                            Send Message
+
+                        </button>
+
+
+                        <p class="form-note">
+
+                            <i class="fas fa-info-circle"></i>
+
+                            This demo form displays a
+                            confirmation message.
+
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
 
     <footer class="footer">
 
@@ -1803,12 +1547,16 @@
 
                 <div class="footer-brand">
 
-                    <a href="#home" class="logo">
-                        <span>&lt;</span> SR <span>/&gt;</span>
+                    <a href="#home"
+                        class="logo">
+
+                        Sathwika<span>.</span>
+
                     </a>
 
                     <p>
-                        Building ideas into practical digital solutions.
+                        Building ideas into digital
+                        experiences.
                     </p>
 
                 </div>
@@ -1816,43 +1564,54 @@
 
                 <div class="footer-links">
 
-                    <h4>Quick Links</h4>
+                    <h4>
+                        Quick Links
+                    </h4>
 
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#education">Education</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#about">
+                        About
+                    </a>
+
+                    <a href="#skills">
+                        Skills
+                    </a>
+
+                    <a href="#projects">
+                        Projects
+                    </a>
+
+                    <a href="#contact">
+                        Contact
+                    </a>
 
                 </div>
 
 
                 <div class="footer-links">
 
-                    <h4>Connect</h4>
+                    <h4>
+                        Connect
+                    </h4>
 
-                    <a href="https://github.com/"
-                       target="_blank"
-                       rel="noopener noreferrer">
+                    <a
+                        href="https://github.com/Sathwikareddy-29"
+                        target="_blank">
+
                         <i class="fab fa-github"></i>
                         GitHub
+
                     </a>
 
-                    <a href="https://www.linkedin.com/"
-                       target="_blank"
-                       rel="noopener noreferrer">
+                    <a
+                        href="https://www.linkedin.com/"
+                        target="_blank">
+
                         <i class="fab fa-linkedin"></i>
                         LinkedIn
-                    </a>
 
-                    <a href="mailto:YOUR_EMAIL_HERE">
-                        <i class="fas fa-envelope"></i>
-                        Email
                     </a>
 
                 </div>
-
 
             </div>
 
@@ -1860,12 +1619,14 @@
             <div class="footer-bottom">
 
                 <p>
-                    © 2026 Sathwika Reddy. All Rights Reserved.
+                    © <span id="currentYear"></span>
+                    Sathwika Reddy. All rights reserved.
                 </p>
 
                 <p>
-                    Designed & Built with
+                    Made with
                     <i class="fas fa-heart"></i>
+                    and code.
                 </p>
 
             </div>
@@ -1875,8 +1636,121 @@
     </footer>
 
 
-    <!-- Main JavaScript -->
+    <!-- ================= PROJECT MODAL ================= -->
+
+    <div class="modal"
+        id="projectModal">
+
+        <div class="modal-overlay"></div>
+
+
+        <div class="modal-content">
+
+            <button
+                class="modal-close"
+                id="modalClose">
+
+                <i class="fas fa-times"></i>
+
+            </button>
+
+
+            <div class="modal-project-icon"
+                id="modalIcon">
+
+                <i class="fas fa-code"></i>
+
+            </div>
+
+
+            <h2 id="modalTitle">
+                Project
+            </h2>
+
+
+            <p id="modalDescription">
+                Project description
+            </p>
+
+
+            <div class="modal-features">
+
+                <h4>
+                    Features
+                </h4>
+
+                <ul id="modalFeatures"></ul>
+
+            </div>
+
+
+            <div class="modal-tech"
+                id="modalTech"></div>
+
+
+            <div class="modal-buttons">
+
+                <a
+                    href="#"
+                    target="_blank"
+                    id="modalGithub"
+                    class="btn btn-outline">
+
+                    <i class="fab fa-github"></i>
+
+                    GitHub
+
+                </a>
+
+
+                <a
+                    href="#"
+                    target="_blank"
+                    id="modalLive"
+                    class="btn btn-primary">
+
+                    <i class="fas fa-external-link-alt"></i>
+
+                    Live Demo
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div class="toast"
+        id="toast">
+
+        <i class="fas fa-check-circle"></i>
+
+        <span id="toastMessage">
+            Message sent successfully!
+        </span>
+
+    </div>
+
+
+    <!-- ================= BACK TO TOP ================= -->
+
+    <button
+        class="back-to-top"
+        id="backToTop">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- JAVASCRIPT -->
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
